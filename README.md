@@ -17,27 +17,26 @@
 
 ### 安装步骤
 
-1. **创建并进入虚拟环境**（推荐）：
-   ```powershell
-   python -m venv venv
-   .\venv\Scripts\activate
-   ```
+### 快速启动 (Windows)
 
-2. **安装依赖**：
+只需双击运行 `run_server.bat` 即可。该脚本会自动：
+1. 检测并创建 Python 虚拟环境 (`venv`)。
+2. 安装所有必要的依赖项。
+3. 启动 Web 服务并自动在浏览器中打开主页。
+
+### 手动安装 (其他平台/进阶)
+
+1. **安装依赖**：
    ```powershell
    pip install -r requirements.txt
    ```
 
-3. **运行程序**：
+2. **运行程序**：
    ```powershell
    python app.py
    ```
-   或者直接运行：
-   ```powershell
-   .\run_server.bat
-   ```
 
-4. **访问应用**：
+3. **访问应用**：
    在浏览器中打开 [http://localhost:8000](http://localhost:8000)。
 
 ## 项目结构
